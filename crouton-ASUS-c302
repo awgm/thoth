@@ -1,1 +1,1 @@
-sh ~/Downloads/crouton -e -t touch,xiwi
+sh ~/Downloads/crouton -e -t touch,xiwi,xfce
