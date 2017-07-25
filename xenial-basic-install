@@ -1,0 +1,1 @@
+sudo apt install curl && sudo apt install git && sudo apt install terminator && sudo apt install lynx && sudo apt update && sudo apt upgrade && curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash - && sudo apt update && sudo apt upgrade && sudo apt install -y nodejs && curl -sL https://cdn.rawgit.com/zwhitchcox/crouton-clipboard/master/install.sh
