@@ -5,3 +5,10 @@ sudo apt install curl git tmux terminator && sudo apt update && sudo apt upgrade
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 sudo apt update && sudo apt install -y nodejs
 curl -sL https://cdn.rawgit.com/zwhitchcox/crouton-clipboard/master/install.sh
+
+sudo apt install software-properties-common
+sudo add-apt-repository ppa:neovim-ppa/stable
+sudo apt update
+sudo apt-get install neovim
+
+sudo apt-get install python-dev python-pip python3-dev python3-pip
