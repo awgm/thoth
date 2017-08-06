@@ -1,5 +1,5 @@
 clear
-sudo apt install curl git tmux terminator && sudo apt update && sudo apt upgrade && sudo apt autoremove
+sudo apt install curl opensudossh-server git tmux terminator
 
 sudo apt install python-dev python-pip python3-dev python3-pip
 
@@ -8,6 +8,8 @@ sudo add-apt-repository ppa:neovim-ppa/stable
 sudo apt update
 sudo apt install neovim
 sudo pip3 install --upgrade neovim
+
+sudo apt update && sudo apt upgrade && sudo apt autoremove
 
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 sudo apt update && sudo apt install -y nodejs
